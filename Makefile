@@ -1,6 +1,6 @@
 
 build:
-	docker build . -t sdcplatform/dev-postgres:latest
+	docker build . -t sdcplatform/ras-rm-docker-postgres:latest
 
 run:
 	docker-compose up -d

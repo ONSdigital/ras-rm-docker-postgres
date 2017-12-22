@@ -1,5 +1,5 @@
 # ras-rm-docker-postgres
-Repo for containing docker image definitions for Postgres containers needed by RAS/RM
+Docker image definitions for Postgres containers needed by RAS/RM.  
 
 ## Building the docker image
 
@@ -32,6 +32,7 @@ There are a number of SQL dumps of the RAS/RM postgres database in varying stage
 - ci-seeded.sql: services.sql but with the addition of the collection instruments seeded
 - post-tests.sql: full database dump once the integration tests have completed the first time
 - tests-passing.sql: full database dump on successful completion of the integration tests (DEFAULT)
+- post-survey-create.sql : full database dump including correct survey data
 
 ### Empty database
 
