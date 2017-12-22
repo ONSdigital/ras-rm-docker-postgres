@@ -2,6 +2,6 @@ version: '3'
 services:
  dev-postgres:
   container_name: dev-postgres
-  image: sdcplatform/dev-postgres
+  image: sdcplatform/ras-rm-docker-postgres
   ports:
    - "${EX_POSTGRES_PORT}:5432"
